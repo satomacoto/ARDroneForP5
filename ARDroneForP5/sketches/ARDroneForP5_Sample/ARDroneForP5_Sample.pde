@@ -68,6 +68,8 @@ void keyPressed(){
   }else{
     if(key=='s'){
       ardrone.stop();//停止
+    }else if (key=='e'){
+      ardrone.reset();
     }else if(key=='r'){
      ardrone.spinRight(); //右方向に回転
     }else if(key=='l'){
